@@ -1,0 +1,38 @@
+body{
+    background: rgb(95, 152, 238);
+    font: normal 12pt Arial;
+}
+
+section{
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img1 {
+    border-radius: 40px;
+    width: 400px;
+    
+}
+
+header{
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
