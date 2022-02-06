@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando numeros</title>
+    <style>
+        body{
+            font: normal 13pt Arial;
+
+        }
+        input{
+            font: normal 10pt Lucida;
+            width: 100px;
+        }
+        form#res {
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Somando valores
+    </h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick="somar()">
+    <div >
+        <form action="resultado" id="res">
+            O resultado fica aqui
+        </form>     
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

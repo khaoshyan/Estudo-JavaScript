@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando Valores</title>
+    <style>
+        body{
+            background-color: darkseagreen;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: aliceblue;
+            width: 200px;
+            padding-left: 500px;
+        }
+        div#CssRes{
+            padding-top: 20px;
+        }
+        div#CssEsc{
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <h1>
+            Calculadora de exercício
+        </h1>
+    </p>
+    <div>
+        Coloque os valores:
+        <input type="text" name="value1" id="value1">
+        <input type="text" name="value2" id="value2">
+    </div>
+    <div id="CssEsc">
+        Escolha o tipo de calculo
+        <input type="button" value="soma" onclick="soma()">
+        <input type="button" value="subtrair" onclick="subtrair()">
+
+    </div>
+    <div id="CssRes">
+
+        Resultado:
+        <p id="resultado">
+            
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
