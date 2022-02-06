@@ -14,9 +14,18 @@ section{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.img1 {
-    border-radius: 40px;
-    width: 400px;
+.StyleDiv {
+    padding-left: 25%;
+}
+
+.Img1 {
+    border-radius: 100%;
+    width: 30px;
+    padding: 100px;
+    background-image: url(img/manha.jpg);
+    background-size: 500px;
+    
+    text-align: center;
     
 }
 
